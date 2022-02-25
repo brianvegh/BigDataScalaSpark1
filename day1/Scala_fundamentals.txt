@@ -39,7 +39,7 @@ def main(args:Array[String]):Unit= {
 		}
 	} 
 }
-
+Demo_1.main(Array(""))
 
 12)
 val t = if (x> 0 && x<6) "positive" else "negative"
@@ -142,7 +142,7 @@ object Demo{
 			a+functionExamp(a,b-1)
 	} 
 }
-
+Demo.main(Array(""))
 
 24)
 def rect_area(length:Float,breadth:Float):Unit={
