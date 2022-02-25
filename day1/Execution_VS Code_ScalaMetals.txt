@@ -1,0 +1,154 @@
+//1. Install VS Code
+https://code.visualstudio.com/
+
+
+-----------------------------------------------
+HELLO_WORLD Program:
+-----------------------------------------------
+//2. Create a Folder 'VS Code Example' in Local C Drive or any suitable location 
+VS Code Example
+// Inside VS Code Example folder, create 'src' folder
+src
+// Inside VS Code Example folder, create 'build.sbt' file
+// Add the following content inside the 'build.sbt' file
+name := "HelloWorldApp"
+version := "0.1"
+scalaVersion := "2.11.12"
+
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.4.3"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.4.3"
+libraryDependencies += "org.apache.spark" %% "spark-hive" % "2.4.3"
+
+// Inside src folder, create 'main' folder
+main
+// Inside main folder, create 'scala' folder
+scala
+// Inside scala folder, create 'Hello_World.scala' file
+// Add the following content inside the 'Hello_World.scala' file
+object Hello_World {
+  def main(args: Array[String]): Unit = {
+    println("Hello, world!")
+  }
+}
+
+//3. Setup Scala Plugins
+// Open VS Code
+// On the left hand side of the screen, click on “Extensions.”
+// In the search bar, enter “Scala”. You should see some plug-in options for Scala. 
+// Install “Scala Syntax (official)”
+// Install “Scala (metals)”
+
+
+//4. Open the scala code
+// Open VS Code
+// Click on Explorer on the left panel top/1st icon 
+// Click on 'Open Folder'
+// Provide the location where the 'VS Code Example' folder is location in the local system
+C:\Users\WilliamTerry\IdeaProjects
+// Select the 'VS Code Example' folder
+// The folder structure will now be seen in VS Code
+// Click on 'Hello_World.scala"
+// If prompted with "New sbt workspace detected, would you like to import the build?" > Click on 'Import build". It will take few minutes to complete the import.
+// Click on Run > Run Without Debugging
+// 'launch.json' tab will open
+// Enter below details in the 'launch.json'
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "scala",
+            "request": "launch",
+            "name": "Hello_World",
+            "mainClass": "Hello_World",
+            "args": [],
+            "jvmOptions": [],
+            "env": {}
+        }
+    ]
+}
+
+// Save the files
+// Click on Run > Run Without Debugging
+// Output will be displayed in the 'DEBUG CONSOLE'
+Hello, world!
+
+-----------------------------------------------------------------------END--------------------------------------------------------------------------------
+
+
+--------------------
+WordCount Program:
+--------------------
+// Install 'AdoptOpenJDK 8' in Windows
+https://adoptopenjdk.net/
+// Verify in cmd prompt
+java -version
+
+Result:
+openjdk version "1.8.0_292"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_292-b10)
+OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.292-b10, mixed mode)
+
+// Install Scala '2.11.12' in Windows
+https://www.scala-lang.org/download/2.11.12.html
+// scroll down in the page to 'Other ways to install Scala'
+// Click on 'Download the Scala binaries for windows'
+// Complete the Installation and note the location where scala is installed
+C:\Program Files (x86)\scala\bin
+// Verify in cmd prompt
+scala -version
+
+Result:
+Scala code runner version 2.11.12 -- Copyright 2002-2017, LAMP/EPFL
+
+
+// In the Terminal of VS Code. Cd to the location where Scala is Installed
+C:\Program Files (x86)\scala\bin
+
+Activity:
+PS C:\Users\WilliamTerry\IdeaProjects> cd ..
+PS C:\Users\WilliamTerry> cd ..
+PS C:\Users> cd ..
+PS C:\> cd '.\Program Files (x86)\'
+PS C:\Program Files (x86)> cd .\scala\
+PS C:\Program Files (x86)\scala> cd .\bin\
+PS C:\Program Files (x86)\scala\bin> .\scala
+
+Result: 
+Welcome to Scala 2.11.12 (Java HotSpot(TM) 64-Bit Server VM, Java 16).
+Type in expressions for evaluation. Or try :help.
+
+scala>
+
+// Then enter the below code one by one to find the WordCount:
+val list = List("Anish is working on BigData Technologies","Hello Anish","BigData")
+val words = list.flatMap(line => line.split(" "))
+val keyData = words.map(word => (word,1))
+val groupedData = keyData.groupBy(_._1)
+val result = groupedData.mapValues(list=>{list.map(_._2).sum})
+result.foreach(println)
+
+Final Result:
+scala> result.foreach(println)
+(working,1)
+(BigData,2)
+(is,1)
+(Technologies,1)
+(Anish,2)
+(on,1)
+(Hello,1)
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Reference Links:
+----------------
+1. https://towardsdatascience.com/an-intro-to-scala-part-1-installation-set-up-and-hello-world-58a076a6818e
+2. https://www.youtube.com/watch?v=NZ3O5uKzWd0
+3. https://data-flair.training/forums/topic/write-a-word-count-program-using-scala-language-dont-use-spark-core-or-sql/
