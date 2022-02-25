@@ -1,4 +1,4 @@
-//1. Install 'AdoptOpenJDK 8' in Windows
+ //1. Install 'AdoptOpenJDK 8' in Windows
 https://adoptopenjdk.net/
 // Verify in cmd prompt
 java -version
