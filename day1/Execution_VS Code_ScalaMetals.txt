@@ -116,7 +116,7 @@ PS C:\Users> cd ..
 PS C:\> cd '.\Program Files (x86)\'
 PS C:\Program Files (x86)> cd .\scala\
 PS C:\Program Files (x86)\scala> cd .\bin\
-PS C:\Program Files (x86)\scala\bin> .\scala
+PS C:\Program Files (x86)\scala\bin> ./scala
 
 Result: 
 Welcome to Scala 2.13.6 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_301).
@@ -129,7 +129,7 @@ val list = List("Anish is working on BigData Technologies","Hello Anish","BigDat
 val words = list.flatMap(line => line.split(" "))
 val keyData = words.map(word => (word,1))
 val groupedData = keyData.groupBy(_._1)
-val result = groupedData.mapValues(list=>{list.map(_._2).sum})
+val result = groupedData.view.mapValues(list=>{list.map(_._2).sum})
 result.foreach(println)
 
 Final Result:
