@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------------------------------------------
+Java Installation:
+------------------
+// Reference Link: https://www.youtube.com/watch?v=EMLTOMdIz4w
+
+// Download the latest java jdk
+https://www.oracle.com/in/java/technologies/javase-downloads.html
+
+//Java SE 16 is the latest version as on 20Apr21
+// Click on JDK Download
+// Windows x64 Installer	
+jdk-16_windows-x64_bin.exe
+
+// Install Java
+
+// After Installation Go to the location where the Java JDK file is installed in the computer
+C:\Program Files\Java\jdk-16\bin
+
+
+// Set 'bin' folder as Environment variable
+// This will enable to run all Java related command from the command prompt
+Windows > Settings > System > Edit the system environment variables > Environment Variables > System Variables > Select the PATH variable> Edit
+//then
+//Paste the path for the Java bin folder
+C:\Program Files\Java\jdk-16\bin
+
+
+//Set the Java home Environment variable
+Windows > Settings > System > Edit the system environment variables > Environment Variables > System Variables > New
+// then
+// Type the below in Variable name
+JAVA_HOME
+
+//Variable value: Value for variable will be path upto the jdk folder
+C:\Program Files\Java\jdk-16
+
+// Close all open command prompts
+
+// Open Command prompt
+cmd
+
+// Check the Java version
+java -version
+
+(C:\Users\WilliamTerry>java -version)
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+IntelliJ Installation:
+----------------------
+// Reference Link: https://www.youtube.com/watch?v=EMLTOMdIz4w
+
+// Download IntelliJ IDEA Community version from below link:
+https://www.jetbrains.com/idea/download/#section=windows
+
+// In the Installation Options Pop Up screen:
+- For 'Create Desktop Shortcut' - check/select '64-bit launcher'
+
+- For 'Update Context menu' - check/select 'Add "Open Folder as Project"
+
+- For 'Update PATH variable (restart needed) - check.select 'Add launchers dir to the PATH
+
+//Restart the System
+
+
+// Double click and open IntelliJ IDEA
+// Accept the user agreement
+// Click on New Project
+
+
