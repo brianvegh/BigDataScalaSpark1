@@ -74,6 +74,7 @@ object Hello_World {
 // Click on 'Hello_World.scala"
 // If prompted with "New sbt workspace detected, would you like to import the build?" > Click on 'Import build". It will take few minutes to complete the import.
 // Click on Run > Run Without Debugging
+//(after creating launch.json file in .vscode which may not pop up as below)
 // 'launch.json' tab will open
 // Enter below details in the 'launch.json'
 {
