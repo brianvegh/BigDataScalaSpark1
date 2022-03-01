@@ -28,6 +28,9 @@ https://docs.scala-lang.org/tour/case-classes.html#inner-main
 
 https://docs.scala-lang.org/tour/annotations.html#inner-main
 
+//classes
+https://docs.scala-lang.org/tour/classes.html
+
 //for yield examples
 https://alvinalexander.com/scala/scala-for-loop-yield-examples-yield-tutorial/
 

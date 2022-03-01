@@ -9,10 +9,10 @@ class Ctr {
 val ctr1 = new Ctr // or
 new Ctr()
 ctr1.incr()
-print(ctr1.curr)
+print(ctr1.curr())
 ----------------------------------
 class Duck {
-var size = 1
+	var size = 1
 }
 
 var f = new Duck
@@ -23,7 +23,7 @@ println(f.size)
 
 2)Structure of classes
 
- The auxiliary constructor in Scala is used for constructor overloading and defined as a method usingthis  name.
+ The auxiliary constructor in Scala is used for constructor overloading and defined as a method using this  name.
 
 class Employee(empId: Int,name: String,salary :Double){
  def this(empId:Int,name:String) =
@@ -103,18 +103,18 @@ println("sum ints 1 to 4 = " + sumInts(1,4))
 
 Multilevel Inheritance Example – 1
 
-scala> class A{
+class A{
 	println("A")
 }
-defined class A
-scala> class B extends A{
+
+class B extends A{
 	println("B")
 	}
-defined class B
-scala> class C extends B{
-| println("C")
-| }
-defined class C
+
+class C extends B{
+	println("C")
+	}
+
 scala> new C()
 A
 B
@@ -133,7 +133,7 @@ class B extends A{
 class C extends A{
 	println("C")
 	}
-defined class C
+
 scala> new B()
 A
 B
@@ -264,10 +264,6 @@ def failingFn2(i: Int): Int = {
 }
 
 failingFn2(12)
-
-def mean_1(xs: IndexedSeq[Double], onEmpty: Double): Double =
-  if (xs.isEmpty) onEmpty
-  else xs.sum / xs.length
 
 
 9)Features
