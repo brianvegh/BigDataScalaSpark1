@@ -43,3 +43,6 @@ https://alvinalexander.com/scala/scala-break-continue-examples-breakable/
 //arrays specifics (if you are curious)
 https://docs.scala-lang.org/overviews/collections/arrays.html
 https://www.scala-lang.org/api/2.13.3/scala/Array.html
+
+//case pattern matching
+https://docs.scala-lang.org/tour/pattern-matching.html
