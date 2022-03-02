@@ -1,5 +1,5 @@
 ### Project 0
-A Scala CLI (Command Line Interface) application.  Data should be parsed from a CSV OR JSON file and persisted to MongoDB OR MySQL. The functionality of the application beyond that is up to you, but here are a few suggestions:
+A Scala CLI (Command Line Interface) application.  Data should be parsed from a CSV OR JSON file and persisted to  MySQL. The functionality of the application beyond that is up to you, but here are a few suggestions:
 - journal app
 - banking app
 - business management system
@@ -13,7 +13,7 @@ A Scala CLI (Command Line Interface) application.  Data should be parsed from a 
 - Other than those requirements, the kind of application you have is up to you.
 
 ## Tech Stack
-- Scala 2.13
+- Scala 2.12
   - File I/O
   - Collections
 - MySQL
