@@ -24,7 +24,7 @@ A Scala CLI (Command Line Interface) application.  Data should be parsed from a 
 - 5 minute live demo.  Present the application, not the code.
 
 ## Due Date
-- Project 0 will be presented Wednesday, December 16/2021 (10 am)
+- Project 0 will be presented Wednesday, March 16/2022 (10 am)
 
 Finishing your MVP (Minimum Viable Product) as early as possible before iterating new features upon the project is highly recommended.  Plan ahead, and be sure to reach out to others when you need guidance (or offer your own to those in need).  You are *REQUIRED* to be able to explain your project functionality and write your own code, but feel free to have in-depth discussions with others.
 

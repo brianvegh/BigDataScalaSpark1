@@ -68,4 +68,7 @@ https://www.jetbrains.com/idea/download/#section=windows
 // Accept the user agreement
 // Click on New Project
 
+//helpful link if get command line too long error
+https://stackoverflow.com/questions/6381213/idea-10-5-command-line-is-too-long
+
 
