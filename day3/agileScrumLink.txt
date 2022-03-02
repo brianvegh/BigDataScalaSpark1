@@ -1,0 +1,6 @@
+https://www.atlassian.com/agile/scrum
+
+https://scrumguides.org/scrum-guide.html
+
+//start with this one
+https://www.agilealliance.org/scrumban/

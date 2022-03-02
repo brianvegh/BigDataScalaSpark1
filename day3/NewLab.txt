@@ -1,0 +1,66 @@
+//map, reduce, flatten, flatMap, and collections
+
+
+var x: Array[Array[Int]]=Array(Array(1, 7), Array(2, 9))
+var y: Array[Int] = x.flatten
+var z: Int = x.flatten.reduce((x,y)=>x max y)
+
+//assigning to ListBuffer, mapping, and filtering
+import scala.collection.mutable.ListBuffer
+var x: Array[Array[Int]]=Array(Array(1, 7), Array(2, 9))
+var y: Array[Int] = x.flatten
+var LB1:ListBuffer[Int] = ListBuffer[Int]()
+//or val LB1 = new ListBuffer[Int]()
+y.foreach(elem => LB1 += elem)
+println(LB1)
+//below is just for fun to see under the hood
+//y.map(elem=>LB1+=elem)
+var qq= y.map(elem=>elem+1).filter(elem=>elem>2).foreach(elem => LB1 += elem)
+println(qq)
+
+
+//assigning to ArrayBuffer, mapping, and filtering
+import scala.collection.mutable.ArrayBuffer
+var a: Array[Array[String]]=Array(Array("hello1", "hello2"), Array("hello with space", "hello again"))
+//see two below give same results
+a.flatMap(e=>e)
+a.flatten
+
+var AB1:ArrayBuffer[String] = ArrayBuffer[String]()
+//or var AB1 = ListBuffer[String]()
+//I like to be explicit about type however
+
+a.flatMap(e=>e++Array(" added to each of 2 Arrays")).foreach(elem=>AB1+=elem)
+println(AB1)
+
+
+//if just wanted to print Array could do
+println(a.map(elem=>elem.toBuffer).toBuffer)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Source----
+https://www.geeksforgeeks.org/scala-flatmap-method/
