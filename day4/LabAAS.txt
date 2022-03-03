@@ -1,0 +1,7 @@
+instructions:
+
+git clone https://github.com/nadimbahadoor/allaboutscala
+
+//then open intelliJ or your IDE of choice
+
+//reference: http://allaboutscala.com/
