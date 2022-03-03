@@ -1,0 +1,48 @@
+//https://www.hackerrank.com/challenges/super-digit/problem
+
+import scala.io.StdIn.readLine
+
+object Solution {
+
+
+      def main(args: Array[String]) {
+            /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution
+    */  val arr = readLine.split(" ")
+        val N = arr(0).toLong
+        val K = arr(1).toInt
+        var i:Int=0
+        
+        var x:List[Int]=List()
+        var numDigits:Int=0
+        
+        var storeResult:Long=0
+        var z: IndexedSeq[Int]=Vector()
+        var z1: IndexedSeq[Int]=Vector()
+        var z2: IndexedSeq[Int]=Vector()
+        var Digits:IndexedSeq[Int]=Vector()
+        
+        z1=N.toString.map(_.asDigit)
+             
+        for(i<-0 to (K-1)){
+            z2=z2++z1
+        }
+        
+        z=z2
+        numDigits=z.length
+        
+        while(numDigits>1){
+            x=(0 to (numDigits-1)).toList
+            //println(x)
+            storeResult=x.map(i=>z(i)).sum
+            //println(storeResult)
+            Digits=storeResult.toString.map(_.asDigit)
+            z=Digits
+            //println(Digits)
+            numDigits=Digits.length
+        }    
+        println(storeResult)
+        
+    
+    
+    }
+}
