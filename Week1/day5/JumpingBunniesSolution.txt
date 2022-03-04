@@ -18,3 +18,7 @@ object Solution {
     println(arr(0))
   }
 }
+//problems today:
+//https://www.hackerrank.com/challenges/jumping-bunnies/
+//https://www.hackerrank.com/challenges/fp-array-of-n-elements/
+//https://www.hackerrank.com/challenges/fp-reverse-a-list
