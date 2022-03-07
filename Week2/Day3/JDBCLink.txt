@@ -1,0 +1,14 @@
+https://www.tutorialspoint.com/jdbc/jdbc-insert-records.htm
+
+#ok too
+http://tutorials.jenkov.com/jdbc/resultset.html
+
+#for mysql
+https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-usagenotes-connect-drivermanager.html
+
+#github example
+https://github.com/WilliamTRev/Scala1
+or better: https://github.com/WilliamTRev/BigDataScalaSpark/tree/main/Week2/JDBCEasyScala
+
+#if using MongoDB:
+https://docs.mongodb.com/drivers/scala/
