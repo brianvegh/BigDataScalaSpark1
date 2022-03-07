@@ -7,7 +7,7 @@ https://dev.mysql.com/downloads/windows/installer/8.0.html
 
 // In the check requirements screen, dont select the 'MySQL for Visual studio', just click on Next. Do you want to continue prompt - click 'Yes'
 
-// Click on Execute in teh Installation screen
+// Click on Execute in the Installation screen
 
 // After installation completes > Click on 'Next'
 
