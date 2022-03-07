@@ -5,3 +5,6 @@ https://www.w3schools.com/mySQl/default.asp
 https://www.tutorialspoint.com/mysql/index.htm
 
 https://dev.mysql.com/doc/refman/8.0/en/
+
+--ER Diagram in Mysql
+https://medium.com/@tushar0618/how-to-create-er-diagram-of-a-database-in-mysql-workbench-209fbf63fd03
