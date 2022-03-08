@@ -16,3 +16,9 @@ https://dev.mysql.com/doc/refman/8.0/en/set-transaction.html
 
 -- Geeks For Geeks Isolation Levels
 https://www.geeksforgeeks.org/transaction-isolation-levels-dbms/
+
+http://www.besttechtools.com/articles/article/sql-server-isolation-levels-by-example
+
+https://www.sqlshack.com/dirty-reads-and-the-read-uncommitted-isolation-level/
+
+https://jennyttt.medium.com/dirty-read-non-repeatable-read-and-phantom-read-bd75dd69d03a
