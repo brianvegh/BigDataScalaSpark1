@@ -1,0 +1,28 @@
+git config --global user.name "WilliamTRev"
+
+cd to appropriate directory, then for new project
+
+git init
+git remote add origin https://github.com/WilliamTRev/test1
+git add -A
+git commit -a -m "test1"
+git branch -m master main
+git push --set-upstream origin main
+-----------------------------------------------------------------------------------
+#usually I just do below if it's a solo project and already a repo
+
+git add -A
+git commit -a -m "test1"
+git push
+-----------------------------------------------------------------------------------
+
+git config --global --list
+
+git config --global init.defaultBranch main
+
+-----------------------------------------------------------------------------------
+https://medium.com/dataseries/how-to-make-your-git-repos-default-to-main-instead-of-master-28b7a9d3d631
+
+
+
+
