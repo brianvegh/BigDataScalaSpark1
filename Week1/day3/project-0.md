@@ -10,6 +10,7 @@ A Scala CLI (Command Line Interface) application.  Data should be parsed from a 
 ## Application Requirements
 - Your application must be able to read JSON or CSV files, and store the data contained within those files in a database (really you should have a JDBC that connects to atleast 3 tables in your database, and takes user input)
 - Your application should have a CLI where users can interact with the application while it is running
+- Include an Entity Relationship Diagram (ERD) with your presentation
 - Other than those requirements, the kind of application you have is up to you.
 
 ## Tech Stack
