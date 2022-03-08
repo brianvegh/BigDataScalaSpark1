@@ -6,5 +6,13 @@ https://www.tutorialspoint.com/mysql/index.htm
 
 https://dev.mysql.com/doc/refman/8.0/en/
 
---ER Diagram in Mysql
+-- ER Diagram in Mysql
 https://medium.com/@tushar0618/how-to-create-er-diagram-of-a-database-in-mysql-workbench-209fbf63fd03
+
+-- Set Isolation Levels
+https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html
+
+https://dev.mysql.com/doc/refman/8.0/en/set-transaction.html
+
+-- Geeks For Geeks Isolation Levels
+https://www.geeksforgeeks.org/transaction-isolation-levels-dbms/
