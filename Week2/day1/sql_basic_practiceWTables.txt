@@ -234,8 +234,18 @@ CASE
 END AS QuantityText
 FROM OrderDetails;
 
-------SQL statement creates a stored procedure named "SelectAllCustomers" that selects all records from the "Customers" table:
--- put procedure here
+------SQL statement creates a stored procedure named "TestProc2" that selects all records from the "Customers" table:
+
+Delimiter //
+CREATE PROCEDURE TestProc2()
+BEGIN
+	SELECT * FROM Customers;
+END //
+
+DELIMITER ;
+
+CALL TestProc2() 
+
 
 -----single-line comment to ignore a statement:
 -- SELECT * FROM Customers;
@@ -335,7 +345,7 @@ The LEAD() function is used to get value from row that succedes the current row.
 Find average salary of employees for each department and order employees within a department by age.
 
 SELECT Name, Age, Department, Salary, 
- AVERAGE(Salary) OVER( PARTITION BY Department ORDER BY Age) AS Avg_Salary
+ AVG(Salary) OVER( PARTITION BY Department ORDER BY Age) AS Avg_Salary
  FROM employee
 
 
