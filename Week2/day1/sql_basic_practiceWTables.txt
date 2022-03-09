@@ -347,37 +347,38 @@ CREATE TABLE OrderDetails(
 	OrderID int,
 	ProductID int,
 	Quantity int,
-	PRIMARY KEY(OrderID)
+	PRIMARY KEY(OrderDetailID)
 );
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (1,10248,11,12);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (2,10248,42,10);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (3,10248,72,5);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (4,10249,72,5);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (5,10249,72,5);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (6,10250,72,5);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (7,10250,72,5);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (8,10250,72,5);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (9,10251,72,5);
 
-INSERT INTO OrderDetails(Order, DetailID, OrderID,ProductID, Quantity)
+INSERT INTO OrderDetails(OrderDetailID, OrderID,ProductID, Quantity)
 VALUES (10,10251,72,5);
 ---------------------------------------------------------------------------------------------
 DROP TABLE IF EXISTS Products;
@@ -388,6 +389,7 @@ CREATE TABLE Products(
 	CategoryID int,
 	Unit varchar(255),
 	Price float
+	Primary Key(ProductID)
 );
 INSERT INTO Products(ProductID, ProductName, SupplierID, CategoryID, Unit, Price)
 VALUES (1,'Chais',1,1,'10 boxes x 20 bags',18);
@@ -408,11 +410,13 @@ CREATE TABLE Suppliers(
 	SupplierID int NOT NULL,
 	SupplierName varchar(255),
 	ContactName varchar(255),
-	AddressCity varchar(255),
+	Address varchar(255),
+	City varchar(255),
 	PostalCode varchar(255),
 	Country varchar(255),
 	PRIMARY KEY(SupplierID)
 );
+
 
 INSERT INTO Suppliers (SupplierID, SupplierName, ContactName, Address,City, PostalCode, Country)
 VALUES (1,'Exotic Liquid','Charlotte Cooper','49 Gilbert St.','London','EC1 4SD','UK');
