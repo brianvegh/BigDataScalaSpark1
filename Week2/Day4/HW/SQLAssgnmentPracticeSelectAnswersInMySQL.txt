@@ -1,0 +1,237 @@
+-- some of the tables and select answers
+
+-- 1
+DROP TABLE Users;
+CREATE TABLE Users(
+	user_id int NOT NULL,
+	action varchar(255),
+	date date
+);
+
+INSERT INTO Users(user_id,action,date)
+VALUES (1,'start','2000/01/01');
+INSERT INTO Users(user_id,action,date)
+VALUES (1,'cancel','2000/01/02');
+INSERT INTO Users(user_id,action,date)
+VALUES (2,'start','2000/01/03');
+INSERT INTO Users(user_id,action,date)
+VALUES (2,'publish','2000/01/04');
+INSERT INTO Users(user_id,action,date)
+VALUES (3,'start','2000/01/05');
+INSERT INTO Users(user_id,action,date)
+VALUES (3,'cancel','2000/01/06');
+INSERT INTO Users(user_id,action,date)
+VALUES (4,'start','2000/01/07');
+
+DROP TABLE a;
+CREATE TABLE a(SELECT user_id, 
+sum(CASE WHEN action = 'start' then 1 else 0 end) AS s1, 
+sum(CASE WHEN action = 'cancel' then 1 else 0 end) AS s2, 
+sum(CASE WHEN action = 'publish' then 1 else 0 end) AS s3
+FROM users GROUP BY user_id);
+
+SELECT user_id, SUM(s2)/SUM(s3+s2+s1) as cancellation, SUM(s3)/SUM(s3+s2+s1) as publication
+FROM a GROUP BY user_id;
+
+
+--2
+DROP TABLE transactions;
+CREATE TABLE transactions(
+	sender int NOT NULL,
+	receiver int,	
+	amount int,
+	transaction_date date
+);
+
+INSERT INTO transactions(sender,receiver,amount,transaction_date)
+VALUES (5,2,10,'2000/02/12');
+INSERT INTO transactions(sender,receiver,amount,transaction_date)
+VALUES (1,3,15,'2000/02/13');
+INSERT INTO transactions(sender,receiver,amount,transaction_date)
+VALUES (2,1,20,'2000/02/13');
+INSERT INTO transactions(sender,receiver,amount,transaction_date)
+VALUES (2,3,25,'2000/02/14');
+INSERT INTO transactions(sender,receiver,amount,transaction_date)
+VALUES (3,1,20,'2000/02/15');
+INSERT INTO transactions(sender,receiver,amount,transaction_date)
+VALUES (3,2,15,'2000/02/15');
+INSERT INTO transactions(sender,receiver,amount,transaction_date)
+VALUES (1,4,5,'2000/02/16');
+
+DROP table a;
+CREATE TABLE a(SELECT sender, SUM(amount) as amount FROM transactions GROUP by sender);
+
+DROP table b;
+CREATE TABLE b( SELECT receiver, SUM(amount) as amt FROM transactions GROUP by receiver);
+
+DROP table c;
+CREATE TABLE c(
+SELECT a.sender as userid, coalesce(b.amt,0)-coalesce(a.amount,0) as net
+FROM b right JOIN a ON a.sender=b.receiver);
+
+DROP table d;
+CREATE TABLE d(
+SELECT b.receiver as userid,coalesce(b.amt,0)-coalesce(a.amount,0) as net
+FROM b LEFT JOIN a ON a.sender=b.receiver);
+
+drop table e;
+CREATE TABLE e(SELECT userid, net
+FROM c
+UNION
+SELECT userid, net
+FROM d);
+
+SELECT * FROM e;
+
+--3.
+DROP TABLE items;
+
+CREATE TABLE items(
+	date date,
+	item varchar(255)
+);
+INSERT INTO items(date,item)
+VALUES ('2000/01/01','apple');
+INSERT INTO items(date,item)
+VALUES ('2000/01/01','apple');
+INSERT INTO items(date,item)
+VALUES ('2000/01/01','pear');
+INSERT INTO items(date,item)
+VALUES ('2000/01/01','pear');
+INSERT INTO items(date,item)
+VALUES ('2000/01/02','pear');
+INSERT INTO items(date,item)
+VALUES ('2000/01/02','pear');
+INSERT INTO items(date,item)
+VALUES ('2000/01/02','pear');
+INSERT INTO items(date,item)
+VALUES ('2000/01/02','orange');
+
+DROP TABLE a;
+CREATE TABLE a(SELECT item, DATE, COUNT(item) as item_count FROM items 
+GROUP by DATE,item Order by DATE,item_count);
+
+DROP TABLE b;
+CREATE TABLE b(SELECT item, DATE, item_count, MAX(item_count) as mx
+FROM a GROUP by date);
+
+DROP TABLE c;
+CREATE TABLE c(SELECT a.item as item,a.item_count,a.date ,b.mx
+FROM a CROSS JOIN b ON b.date=a.date); 
+
+SELECT item, date FROM c
+WHERE item_count=mx;
+
+
+--4.
+
+DROP TABLE users;
+CREATE TABLE users(
+	user_id int,
+	action varchar (255),
+	action_date date
+);
+
+INSERT INTO users(user_id, action, action_date)
+VALUES (1,'Start','2020/02/12');
+INSERT INTO users(user_id, action, action_date)
+VALUES (1,'Cancel','2020/02/13');
+INSERT INTO users(user_id, action, action_date)
+VALUES (2,'Start','2020/02/11');
+INSERT INTO users(user_id, action, action_date)
+VALUES (2,'Publish','2020/02/14');
+INSERT INTO users(user_id, action, action_date)
+VALUES (3,'Start','2020/02/15');
+INSERT INTO users(user_id, action, action_date)
+VALUES (3,'Cancel','2020/02/15');
+INSERT INTO users(user_id, action, action_date)
+VALUES (4,'Start','2020/02/18');
+INSERT INTO users(user_id, action, action_date)
+VALUES (1,'Publish','2020/02/19');
+
+DROP TABLE a;
+CREATE TABLE a(SELECT user_id, action, action_date
+FROM users
+ORDER BY user_id ASC, action_date DESC);
+
+DROP TABLE b;
+CREATE TABLE b( SELECT *, row_number() OVER (PARTITION by user_id ) AS ActionNum
+FROM a);
+
+DROP TABLE c;
+CREATE TABLE c(SELECT user_id, action_date 
+FROM b
+WHERE ActionNum = 2 );
+
+DROP TABLE d;
+CREATE TABLE d(SELECT user_id, action_date 
+FROM b
+WHERE ActionNum = 1 );
+
+DROP TABLE e;
+CREATE TABLE e(SELECT d.user_id as userid,c.action_date,d.action_date as Last
+FROM c RIGHT JOIN d ON d.user_id=c.user_id
+GROUP by userid); 
+
+DROP TABLE f;
+CREATE TABLE f(SELECT e.userid, (e.Last-e.action_date) as TimeDiff
+from e);
+
+SELECT * FROM f;
+
+-- 5.
+DROP TABLE users;
+CREATE TABLE users(
+	user_id int,
+	product_id int,
+	transaction_date date
+);
+
+INSERT INTO users(user_id, product_id, transaction_date)
+VALUES (1,101,'2020/02/12');
+
+INSERT INTO users(user_id, product_id, transaction_date)
+VALUES (2,105,'2020/02/13');
+
+INSERT INTO users(user_id, product_id, transaction_date)
+VALUES (1,111,'2020/02/14');
+
+INSERT INTO users(user_id, product_id, transaction_date)
+VALUES (3,121,'2020/02/15');
+
+INSERT INTO users(user_id, product_id, transaction_date)
+VALUES (1,101,'2020/02/16');
+
+INSERT INTO users(user_id, product_id, transaction_date)
+VALUES (2,105,'2020/02/17');
+
+INSERT INTO users(user_id, product_id, transaction_date)
+VALUES (4,101,'2020/02/16');
+
+INSERT INTO users(user_id, product_id, transaction_date)
+VALUES (3,105,'2020/02/15');
+
+DROP TABLE a;
+CREATE TABLE a(SELECT COUNT(user_id), user_id from users
+GROUP BY user_id);
+
+DROP TABLE b;
+CREATE TABLE b( SELECT *, row_number() OVER (PARTITION by user_id ) AS secondOnly
+FROM users);
+
+DROP TABLE c;
+CREATE TABLE c(SELECT user_id, transaction_date 
+FROM b
+WHERE secondOnly = 2 );
+
+SELECT b.user_id as userid,c.transaction_date
+FROM c LEFT JOIN b ON b.user_id=c.user_id
+GROUP by userid ORDER BY transaction_date;
+
+
+
+
+
+
+
+
