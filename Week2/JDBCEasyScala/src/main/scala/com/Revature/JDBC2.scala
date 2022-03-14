@@ -28,6 +28,7 @@ object JDBC2 {
       while ( resultSet.next() ) {
         println(resultSet.getString(1)+", " +resultSet.getString(2) +", " +resultSet.getString(3))
       }
+
     } catch {
       case e: Throwable => e.printStackTrace
     }
