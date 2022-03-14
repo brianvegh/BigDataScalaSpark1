@@ -27,7 +27,7 @@ While sfdisk is similar to fdisk, there are few partition manipulation activitie
 
 sfdisk -l
 
-sfdisk -l /dev/sdf
+sfdisk -l /dev/sdd
 
 
 
