@@ -1,0 +1,9 @@
+// install hadoop on Mac
+https://techblost.com/how-to-install-hadoop-on-mac-with-homebrew/
+
+// install Spark on Mac
+https://medium.com/beeranddiapers/installing-apache-spark-on-mac-os-ce416007d79f
+
+// install IntelliJ on Mac
+https://treehouse.github.io/installation-guides/mac/intellij-idea-mac.html
+
