@@ -6,7 +6,7 @@ Commands
 The df command (short for disk free), is used to display information related to file systems about total space and available space.
 
 df
-df /home/maria/
+df /home/wterry/
 df -a  ->If you want to display all the file system, use -a option.
 df --total  ->To get complete grand total, use –total option
 
@@ -141,15 +141,15 @@ chown USER FILE
 
 The find command in UNIX is a command line utility for walking a file hierarchy. It can be used to find files and directories and perform subsequent operations on them.
 
-find ./GFG -name sample.txt  ->Search a file with specific name.
-find ./GFG -name *.txt      ->Search a file with pattern.
+find . -name test1.txt  ->Search a file with specific name.
+find . -maxdepth 1 -name 'test*'     ->Search a file with pattern.
 
 11)history
 history command is used to view the previously executed command. 
 
 history 
 history 5 
-history | grep chpasswd 
+history | grep find
 
 
 12)ps
