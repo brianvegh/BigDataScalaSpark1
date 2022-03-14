@@ -7,3 +7,15 @@ https://medium.com/beeranddiapers/installing-apache-spark-on-mac-os-ce416007d79f
 // install IntelliJ on Mac
 https://treehouse.github.io/installation-guides/mac/intellij-idea-mac.html
 
+
+
+
+
+
+
+
+
+
+//or dual boot with Ubuntu if above does not work
+https://www.makeuseof.com/tag/install-linux-macbook-pro/
+
