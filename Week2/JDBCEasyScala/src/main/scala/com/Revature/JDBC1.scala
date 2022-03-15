@@ -2,8 +2,7 @@ package com.Revature
 
 import java.sql.DriverManager
 import java.sql.Connection
-import java.sql.PreparedStatement
-import java.sql.SQLException
+
 
 object JDBC1 {
 
