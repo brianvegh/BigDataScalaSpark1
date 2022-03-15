@@ -4,3 +4,5 @@ White, Tom. Hadoop: The definitive guide. " O'Reilly Media, Inc.", 2015.
 \\for hadoop api
 https://kaizen.itversity.com/setup-development-environment-intellij-and-scala-big-data-hadoop-and-spark/
 
+\\to work with MySQL and HDFS you could use sqoop
+https://www.tutorialspoint.com/sqoop/sqoop_introduction.htm
