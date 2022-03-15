@@ -1,8 +1,11 @@
 White, Tom. Hadoop: The definitive guide. " O'Reilly Media, Inc.", 2015.
 
 
-\\for hadoop api
+\\for hadoop api in Windows
 https://kaizen.itversity.com/setup-development-environment-intellij-and-scala-big-data-hadoop-and-spark/
 
 \\to work with MySQL and HDFS you could use sqoop
 https://www.tutorialspoint.com/sqoop/sqoop_introduction.htm
+
+\\for transferring unstructure data to HDFS you could use flume
+https://www.tutorialspoint.com/apache_flume/apache_flume_quick_guide.htm
