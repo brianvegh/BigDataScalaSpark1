@@ -109,6 +109,8 @@ sudo apt install openjdk-8-jre-headless
 - 3. Install OpenJDK via the following command:
 sudo apt-get install openjdk-8-jdk
 
+sudo update-alternatives --config java
+
 - 4. Check the version installed:
 java -version
 
@@ -220,7 +222,7 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 ------------------------------------------------------------------------------------------------------------------------------
 //[Optional, have not included the below in the latest Installation]
 export HADOOP_OPTS="$HADOOP_OPTS -Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm= -Djava.security.krb5.kdc="
-export HADOOP_HOME=/home/maria/hadoop/hadoop-3.3.0
+export HADOOP_HOME=/home/wterry/hadoop/hadoop-3.3.0
 export PATH=$PATH:$HADOOP_HOME/bin
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -381,10 +383,10 @@ hdfs dfs -put /home/maria/hadoop/hadoop-3.3.0/README.txt  /user/maria/
 verify:
 1.1. hdfs dfs -ls /user/maria
 
-1.2. hdfs dfs -ls
+1.2. hdfs dfs -ls /
 
 2. Make a directory 
-hdfs dfs -mkdir first
+hdfs dfs -mkdir /first
 
 Other commands
 1. pwd  (present working directory)
