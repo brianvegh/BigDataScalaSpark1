@@ -23,7 +23,7 @@
 - ```startdfs``` (makes use of the alias above)
 - ```startyarn```
 - ```hadoop fs -mkdir /tmp```
-- ```hadoop fs -mkdir /user/hive```
+- ```hadoop fs -mkdir -p /user/hive```
 - ```hadoop fs -mkdir /user/hive/warehouse```
 - ```hadoop fs -chmod g+w /tmp```
 - ```hadoop fs -chmod g+w /user/hive```

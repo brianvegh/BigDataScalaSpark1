@@ -1778,9 +1778,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.18!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 910ms :: artifacts dl 47ms
-[debug] 	report for hive1234#hive1234$sbt_2.10;0.1 default produced in C:\Users\William Terry\Desktop\Demo\target\scala-2.11\resolution-cache\reports\hive1234-hive1234$sbt_2.10-default.xml
-[debug] 	resolve done (910ms resolve - 47ms download)
+[debug] :: resolution report :: resolve 1467ms :: artifacts dl 107ms
+[debug] 	report for hive1234#hive1234$sbt_2.10;0.1 default produced in C:\Users\William Terry\Desktop\BigDataScalaSpark1\Week3\Demo\target\scala-2.11\resolution-cache\reports\hive1234-hive1234$sbt_2.10-default.xml
+[debug] 	resolve done (1467ms resolve - 107ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: hive1234#hive1234$sources_2.10;0.1
 [debug] 	confs: [default]
@@ -2458,8 +2458,8 @@
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.50!jsch.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.18!classpath.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.18!apply-macro.jar(src)
-[debug] :: resolution report :: resolve 324ms :: artifacts dl 71ms
-[debug] 	report for hive1234#hive1234$sources_2.10;0.1 default produced in C:\Users\William Terry\Desktop\Demo\target\scala-2.11\resolution-cache\reports\hive1234-hive1234$sources_2.10-default.xml
-[debug] 	resolve done (324ms resolve - 71ms download)
-ources_2.10-default.xml
-[debug] 	resolve done (379ms resolve - 123ms download)
+[debug] :: resolution report :: resolve 286ms :: artifacts dl 63ms
+[debug] 	report for hive1234#hive1234$sources_2.10;0.1 default produced in C:\Users\William Terry\Desktop\BigDataScalaSpark1\Week3\Demo\target\scala-2.11\resolution-cache\reports\hive1234-hive1234$sources_2.10-default.xml
+[debug] 	resolve done (286ms resolve - 63ms download)
+rces_2.10-default.xml
+[debug] 	resolve done (560ms resolve - 115ms download)

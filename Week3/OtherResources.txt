@@ -1,6 +1,9 @@
 White, Tom. Hadoop: The definitive guide. " O'Reilly Media, Inc.", 2015.
 
 
+\\for hive
+https://www.tutorialspoint.com/hive/hive_introduction.htm
+
 \\for hadoop api in Windows
 https://kaizen.itversity.com/setup-development-environment-intellij-and-scala-big-data-hadoop-and-spark/
 
