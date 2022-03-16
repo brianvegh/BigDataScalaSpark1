@@ -7,46 +7,46 @@ sudo nohup $HIVE_HOME/bin/hiveserver2&
 beeline -u jdbc:hive2://
 
 -------------------------------------------------------------------------------
-chmod +rwx /home/williamgantterry/Bev_BranchA.txt
-chmod +rwx /home/williamgantterry/Bev_BranchB.txt
-chmod +rwx /home/williamgantterry/Bev_BranchC.txt
-chmod +rwx /home/williamgantterry/Bev_ConscountA.txt
-chmod +rwx /home/williamgantterry/Bev_ConscountB.txt
-chmod +rwx /home/williamgantterry/Bev_ConscountC.txt
+chmod +rwx ~/Bev_BranchA.txt
+chmod +rwx ~/Bev_BranchB.txt
+chmod +rwx ~/Bev_BranchC.txt
+chmod +rwx ~/Bev_ConscountA.txt
+chmod +rwx ~/Bev_ConscountB.txt
+chmod +rwx ~/Bev_ConscountC.txt
 
-hdfs dfs -put /home/williamgantterry/Bev_BranchA.txt /user/williamgantterry
-hdfs dfs -put /home/williamgantterry/Bev_BranchB.txt /user/williamgantterry
-hdfs dfs -put /home/williamgantterry/Bev_BranchC.txt /user/williamgantterry
-hdfs dfs -put /home/williamgantterry/Bev_ConscountA.txt /user/williamgantterry
-hdfs dfs -put /home/williamgantterry/Bev_ConscountB.txt /user/williamgantterry
-hdfs dfs -put /home/williamgantterry/Bev_ConscountC.txt /user/williamgantterry
+hdfs dfs -put ~/Bev_BranchA.txt /user/hive/warehouse
+hdfs dfs -put ~/Bev_BranchB.txt /user/hive/warehouse
+hdfs dfs -put ~/Bev_BranchC.txt /user/hive/warehouse
+hdfs dfs -put ~/Bev_ConscountA.txt /user/hive/warehouse
+hdfs dfs -put ~/Bev_ConscountB.txt /user/hive/warehouse
+hdfs dfs -put ~/Bev_ConscountC.txt /user/hive/warehouse
 ----------------------------------------------------------------------------------
 --method 2:
 --problem 1:
 
 DROP TABLE IF EXISTS BevA;
 create table BevA(Beverage STRING, BranchID String)row format delimited fields terminated by ',' stored as textfile;
-LOAD DATA INPATH '/user/williamgantterry/Bev_BranchA.txt' OVERWRITE INTO TABLE BevA;
+LOAD DATA INPATH '/user/hive/warehouse/Bev_BranchA.txt' OVERWRITE INTO TABLE BevA;
 
 DROP TABLE IF EXISTS BevB;
 create table BevB(Beverage STRING, BranchID String)row format delimited fields terminated by ',' stored as textfile;
-LOAD DATA INPATH '/user/williamgantterry/Bev_BranchB.txt' OVERWRITE INTO TABLE BevB;
+LOAD DATA INPATH '/user/hive/warehouse/Bev_BranchB.txt' OVERWRITE INTO TABLE BevB;
 
 DROP TABLE IF EXISTS BevC;
 create table BevC(Beverage STRING, BranchID String)row format delimited fields terminated by ',' stored as textfile;
-LOAD DATA INPATH '/user/williamgantterry/Bev_BranchC.txt' OVERWRITE INTO TABLE BevC;
+LOAD DATA INPATH '/user/hive/warehouse/Bev_BranchC.txt' OVERWRITE INTO TABLE BevC;
 
 DROP TABLE IF EXISTS ConsA;
 create table ConsA(Beverage STRING, Consumed INT)row format delimited fields terminated by ',' stored as textfile;
-LOAD DATA INPATH '/user/williamgantterry/Bev_ConscountA.txt' OVERWRITE INTO TABLE ConsA;
+LOAD DATA INPATH '/user/hive/warehouse/Bev_ConscountA.txt' OVERWRITE INTO TABLE ConsA;
 
 DROP TABLE IF EXISTS ConsB;
 create table ConsB(Beverage STRING, Consumed INT)row format delimited fields terminated by ',' stored as textfile;
-LOAD DATA INPATH '/user/williamgantterry/Bev_ConscountB.txt' OVERWRITE INTO TABLE ConsB;
+LOAD DATA INPATH '/user/hive/warehouse/Bev_ConscountB.txt' OVERWRITE INTO TABLE ConsB;
 
 DROP TABLE IF EXISTS ConsC;
 create table ConsC(Beverage STRING, Consumed INT)row format delimited fields terminated by ',' stored as textfile;
-LOAD DATA INPATH '/user/williamgantterry/Bev_ConscountC.txt' OVERWRITE INTO TABLE ConsC;
+LOAD DATA INPATH '/user/hive/warehouse/Bev_ConscountC.txt' OVERWRITE INTO TABLE ConsC;
 
 DROP TABLE IF EXISTS BevAll;
 CREATE TABLE BevAll(Beverage STRING,BranchID STRING);
