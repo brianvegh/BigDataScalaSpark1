@@ -1,13 +1,13 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
-[debug] :: resolving dependencies :: hive1234#hive1234$sbt_2.10;0.1
+[debug] :: resolving dependencies :: hive1234#hive1234$sbt_2.10;0.2
 [debug] 	confs: [default]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'default'
-[debug] == resolving dependencies for hive1234#hive1234$sbt_2.10;0.1 [default]
-[debug] == resolving dependencies hive1234#hive1234$sbt_2.10;0.1->org.scala-sbt#sbt;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies for hive1234#hive1234$sbt_2.10;0.2 [default]
+[debug] == resolving dependencies hive1234#hive1234$sbt_2.10;0.2->org.scala-sbt#sbt;0.13.18 [default->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.18 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.18 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.18
@@ -1778,17 +1778,17 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.18!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 1467ms :: artifacts dl 107ms
-[debug] 	report for hive1234#hive1234$sbt_2.10;0.1 default produced in C:\Users\William Terry\Desktop\BigDataScalaSpark1\Week3\Demo\target\scala-2.11\resolution-cache\reports\hive1234-hive1234$sbt_2.10-default.xml
-[debug] 	resolve done (1467ms resolve - 107ms download)
+[debug] :: resolution report :: resolve 3258ms :: artifacts dl 138ms
+[debug] 	report for hive1234#hive1234$sbt_2.10;0.2 default produced in C:\Users\William Terry\Desktop\Demo\target\scala-2.11\resolution-cache\reports\hive1234-hive1234$sbt_2.10-default.xml
+[debug] 	resolve done (3258ms resolve - 138ms download)
 [debug] Using inline dependencies specified in Scala.
-[debug] :: resolving dependencies :: hive1234#hive1234$sources_2.10;0.1
+[debug] :: resolving dependencies :: hive1234#hive1234$sources_2.10;0.2
 [debug] 	confs: [default]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'default'
-[debug] == resolving dependencies for hive1234#hive1234$sources_2.10;0.1 [default]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#logging;0.13.18 [default->compile]
+[debug] == resolving dependencies for hive1234#hive1234$sources_2.10;0.2 [default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#logging;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1796,8 +1796,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logging;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logging;0.13.18
 [debug] 	found org.scala-sbt#logging;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#logging;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#compiler-ivy-integration;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#logging;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#compiler-ivy-integration;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1805,8 +1805,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-ivy-integration;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-ivy-integration;0.13.18
 [debug] 	found org.scala-sbt#compiler-ivy-integration;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#compiler-ivy-integration;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#main-settings;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#compiler-ivy-integration;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#main-settings;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1814,8 +1814,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main-settings;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main-settings;0.13.18
 [debug] 	found org.scala-sbt#main-settings;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#main-settings;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#sbt;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#main-settings;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#sbt;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1823,8 +1823,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.18
 [debug] 	found org.scala-sbt#sbt;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#sbt;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#api;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#sbt;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#api;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1832,8 +1832,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#api;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#api;0.13.18
 [debug] 	found org.scala-sbt#api;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#api;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#compile;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#api;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#compile;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1841,8 +1841,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compile;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compile;0.13.18
 [debug] 	found org.scala-sbt#compile;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#compile;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#completion;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#compile;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#completion;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1850,8 +1850,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#completion;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#completion;0.13.18
 [debug] 	found org.scala-sbt#completion;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#completion;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#main;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#completion;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#main;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1859,8 +1859,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.18
 [debug] 	found org.scala-sbt#main;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#main;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#cache;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#main;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#cache;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1868,8 +1868,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cache;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cache;0.13.18
 [debug] 	found org.scala-sbt#cache;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#cache;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#cache;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1877,14 +1877,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scalamacros#quasiquotes_2.10;2.0.1 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.1
 [debug] 	found org.scalamacros#quasiquotes_2.10;2.0.1 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scalamacros#quasiquotes_2.10;2.0.1 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scalamacros#quasiquotes_2.10;2.0.1 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scalamacros#quasiquotes_2.10;2.0.1 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1892,18 +1892,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#serialization_2.10;0.1.2 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#serialization_2.10;0.1.2
 [debug] 	found org.scala-sbt#serialization_2.10;0.1.2 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#serialization_2.10;0.1.2 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1911,14 +1911,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-pickling_2.10;0.10.1 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-pickling_2.10;0.10.1
 [debug] 	found org.scala-lang.modules#scala-pickling_2.10;0.10.1 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang.modules#scala-pickling_2.10;0.10.1 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1926,22 +1926,22 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.7
 [debug] 	found org.scala-lang#scala-compiler;2.10.7 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->master(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-compiler;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#testing;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-compiler;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#testing;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1949,8 +1949,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#testing;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#testing;0.13.18
 [debug] 	found org.scala-sbt#testing;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#testing;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#compiler-interface;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#testing;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#compiler-interface;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1958,8 +1958,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-interface;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-interface;0.13.18
 [debug] 	found org.scala-sbt#compiler-interface;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#compiler-interface;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#compiler-interface;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1967,18 +1967,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310
 [debug] 	found org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#relation;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#relation;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1986,8 +1986,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#relation;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#relation;0.13.18
 [debug] 	found org.scala-sbt#relation;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#relation;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#incremental-compiler;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#relation;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#incremental-compiler;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -1995,8 +1995,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#incremental-compiler;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#incremental-compiler;0.13.18
 [debug] 	found org.scala-sbt#incremental-compiler;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#incremental-compiler;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#classfile;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#incremental-compiler;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#classfile;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2004,8 +2004,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classfile;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classfile;0.13.18
 [debug] 	found org.scala-sbt#classfile;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#classfile;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#process;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#classfile;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#process;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2013,8 +2013,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#process;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#process;0.13.18
 [debug] 	found org.scala-sbt#process;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#process;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#process;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2023,22 +2023,22 @@
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.7
 [debug] 	found org.scala-lang#scala-library;2.10.7 in sbt-chain
 [debug] 	[2.10.7] org.scala-lang#scala-library;2.10.7
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->master(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-library;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#ivy;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-library;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#ivy;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2046,8 +2046,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#ivy;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#ivy;0.13.18
 [debug] 	found org.scala-sbt#ivy;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#ivy;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#tasks;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#ivy;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#tasks;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2055,8 +2055,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#tasks;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#tasks;0.13.18
 [debug] 	found org.scala-sbt#tasks;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#tasks;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-agent;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#tasks;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-agent;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2064,8 +2064,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-agent;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-agent;0.13.18
 [debug] 	found org.scala-sbt#test-agent;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-agent;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-agent;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2073,18 +2073,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#launcher-interface;1.0.1 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#launcher-interface;1.0.1
 [debug] 	found org.scala-sbt#launcher-interface;1.0.1 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#launcher-interface;1.0.1 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-core_2.10;3.2.10 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#launcher-interface;1.0.1 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-core_2.10;3.2.10 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2092,14 +2092,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-core_2.10;3.2.10 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.10;3.2.10
 [debug] 	found org.json4s#json4s-core_2.10;3.2.10 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-core_2.10;3.2.10 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-core_2.10;3.2.10 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-core_2.10;3.2.10 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-core_2.10;3.2.10 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#run;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-core_2.10;3.2.10 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-core_2.10;3.2.10 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-core_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-core_2.10;3.2.10 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-core_2.10;3.2.10 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#run;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2107,8 +2107,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#run;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#run;0.13.18
 [debug] 	found org.scala-sbt#run;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#run;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#command;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#run;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#command;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2116,8 +2116,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#command;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#command;0.13.18
 [debug] 	found org.scala-sbt#command;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#command;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#logic;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#command;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#logic;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2125,8 +2125,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logic;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.18
 [debug] 	found org.scala-sbt#logic;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#logic;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#persist;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#logic;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#persist;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2134,8 +2134,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#persist;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#persist;0.13.18
 [debug] 	found org.scala-sbt#persist;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#persist;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#persist;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2144,22 +2144,22 @@
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.7
 [debug] 	found org.scala-lang#scala-reflect;2.10.7 in sbt-chain
 [debug] 	[2.10.7] org.scala-lang#scala-reflect;2.10.7
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->default]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-lang#scala-reflect;2.10.7 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#jawn-parser_2.10;0.6.0 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-lang#scala-reflect;2.10.7 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#jawn-parser_2.10;0.6.0 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2167,14 +2167,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.spire-math#jawn-parser_2.10;0.6.0 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.spire-math#jawn-parser_2.10;0.6.0
 [debug] 	found org.spire-math#jawn-parser_2.10;0.6.0 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#jawn-parser_2.10;0.6.0 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#interface;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#jawn-parser_2.10;0.6.0 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#jawn-parser_2.10;0.6.0 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#jawn-parser_2.10;0.6.0 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#interface;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2183,8 +2183,8 @@
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#interface;0.13.18
 [debug] 	found org.scala-sbt#interface;0.13.18 in sbt-chain
 [debug] 	[0.13.18] org.scala-sbt#interface;0.13.18
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#interface;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#control;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#interface;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#control;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2192,8 +2192,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#control;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#control;0.13.18
 [debug] 	found org.scala-sbt#control;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#control;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#actions;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#control;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#actions;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2201,8 +2201,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#actions;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#actions;0.13.18
 [debug] 	found org.scala-sbt#actions;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#actions;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-ast_2.10;3.2.10 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#actions;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-ast_2.10;3.2.10 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2210,14 +2210,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.json4s#json4s-ast_2.10;3.2.10 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.10;3.2.10
 [debug] 	found org.json4s#json4s-ast_2.10;3.2.10 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-ast_2.10;3.2.10 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.json4s#json4s-ast_2.10;3.2.10 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-ast_2.10;3.2.10 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-ast_2.10;3.2.10 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-ast_2.10;3.2.10 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.json4s#json4s-ast_2.10;3.2.10 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2225,18 +2225,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#template-resolver;0.1 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#template-resolver;0.1
 [debug] 	found org.scala-sbt#template-resolver;0.1 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#template-resolver;0.1 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#template-resolver;0.1 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2244,8 +2244,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-tools.sbinary#sbinary_2.10;0.4.2 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-tools.sbinary#sbinary_2.10;0.4.2
 [debug] 	found org.scala-tools.sbinary#sbinary_2.10;0.4.2 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#task-system;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-tools.sbinary#sbinary_2.10;0.4.2 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#task-system;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2253,8 +2253,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#task-system;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#task-system;0.13.18
 [debug] 	found org.scala-sbt#task-system;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#task-system;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#json4s-support_2.10;0.6.0 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#task-system;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#json4s-support_2.10;0.6.0 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2262,14 +2262,14 @@
 [debug] sbt-chain: Checking cache for: dependency: org.spire-math#json4s-support_2.10;0.6.0 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.spire-math#json4s-support_2.10;0.6.0
 [debug] 	found org.spire-math#json4s-support_2.10;0.6.0 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#json4s-support_2.10;0.6.0 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.spire-math#json4s-support_2.10;0.6.0 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#json4s-support_2.10;0.6.0 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#json4s-support_2.10;0.6.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#json4s-support_2.10;0.6.0 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.spire-math#json4s-support_2.10;0.6.0 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2277,18 +2277,18 @@
 [debug] sbt-chain: Checking cache for: dependency: jline#jline;2.14.5 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.5
 [debug] 	found jline#jline;2.14.5 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->jline#jline;2.14.5 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#cross;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->jline#jline;2.14.5 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#cross;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2296,8 +2296,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cross;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#cross;0.13.18
 [debug] 	found org.scala-sbt#cross;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#cross;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.thoughtworks.paranamer#paranamer;2.6 [default->master(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#cross;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.thoughtworks.paranamer#paranamer;2.6 [default->master(*)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2305,14 +2305,14 @@
 [debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.6 {default=[master(*), compile, runtime(*), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.thoughtworks.paranamer#paranamer;2.6 [default->compile(*)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.thoughtworks.paranamer#paranamer;2.6 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#compiler-integration;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.thoughtworks.paranamer#paranamer;2.6 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.thoughtworks.paranamer#paranamer;2.6 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.thoughtworks.paranamer#paranamer;2.6 [default->compile(*)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.thoughtworks.paranamer#paranamer;2.6 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#compiler-integration;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2320,8 +2320,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-integration;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-integration;0.13.18
 [debug] 	found org.scala-sbt#compiler-integration;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#compiler-integration;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#tracking;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#compiler-integration;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#tracking;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2329,8 +2329,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#tracking;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#tracking;0.13.18
 [debug] 	found org.scala-sbt#tracking;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#tracking;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#collections;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#tracking;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#collections;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2338,8 +2338,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#collections;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#collections;0.13.18
 [debug] 	found org.scala-sbt#collections;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#collections;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#io;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#collections;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#io;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2347,8 +2347,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#io;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#io;0.13.18
 [debug] 	found org.scala-sbt#io;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#io;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#io;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2356,18 +2356,18 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#test-interface;1.0 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->default]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#test-interface;1.0 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2375,18 +2375,18 @@
 [debug] sbt-chain: Checking cache for: dependency: com.jcraft#jsch;0.1.50 {default=[default, compile, runtime, default(compile), master]}
 [debug] sbt-chain: module revision found in cache: com.jcraft#jsch;0.1.50
 [debug] 	found com.jcraft#jsch;0.1.50 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->runtime]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->compile]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->com.jcraft#jsch;0.1.50 [default->master]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#classpath;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->runtime]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->com.jcraft#jsch;0.1.50 [default->master]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#classpath;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2394,8 +2394,8 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classpath;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classpath;0.13.18
 [debug] 	found org.scala-sbt#classpath;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#classpath;0.13.18 [default->default(compile)]
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#apply-macro;0.13.18 [default->compile]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#classpath;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#apply-macro;0.13.18 [default->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]} => dependency: org.scala-lang#scala-compiler;2.10.7 {default=[default, compile, runtime, default(compile), master, master(*), runtime(*), compile(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-library;2.10.7 {default=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]} => dependency: org.scala-lang#scala-reflect;2.10.7 {default=[master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master]}
@@ -2403,7 +2403,7 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#apply-macro;0.13.18 {default=[compile, default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#apply-macro;0.13.18
 [debug] 	found org.scala-sbt#apply-macro;0.13.18 in sbt-chain
-[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.1->org.scala-sbt#apply-macro;0.13.18 [default->default(compile)]
+[debug] == resolving dependencies hive1234#hive1234$sources_2.10;0.2->org.scala-sbt#apply-macro;0.13.18 [default->default(compile)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
@@ -2458,8 +2458,6 @@
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.50!jsch.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.18!classpath.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.18!apply-macro.jar(src)
-[debug] :: resolution report :: resolve 286ms :: artifacts dl 63ms
-[debug] 	report for hive1234#hive1234$sources_2.10;0.1 default produced in C:\Users\William Terry\Desktop\BigDataScalaSpark1\Week3\Demo\target\scala-2.11\resolution-cache\reports\hive1234-hive1234$sources_2.10-default.xml
-[debug] 	resolve done (286ms resolve - 63ms download)
-rces_2.10-default.xml
-[debug] 	resolve done (560ms resolve - 115ms download)
+[debug] :: resolution report :: resolve 1178ms :: artifacts dl 141ms
+[debug] 	report for hive1234#hive1234$sources_2.10;0.2 default produced in C:\Users\William Terry\Desktop\Demo\target\scala-2.11\resolution-cache\reports\hive1234-hive1234$sources_2.10-default.xml
+[debug] 	resolve done (1178ms resolve - 141ms download)

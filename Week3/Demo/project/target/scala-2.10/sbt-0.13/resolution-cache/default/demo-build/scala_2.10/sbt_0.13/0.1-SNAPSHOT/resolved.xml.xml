@@ -4,7 +4,7 @@
 		module="demo-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20220316105528"
+		publication="20211216083751"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
